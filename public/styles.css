@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: auto 100% ;
+}
+
+.container {
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 15%; /* Adjust the width as needed */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+}
+
+.buttons button {
+    padding: 15px 25px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #555;
+}
+
+h1 {
+    text-align: right; /* Align h1 to the right */
+    margin-right: 20px; /* Optional margin for spacing */
+    color: red;
+}
